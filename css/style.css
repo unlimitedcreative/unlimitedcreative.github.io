@@ -1,0 +1,44 @@
+/* rectangle style */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#title_style1 {
+    height: 150px;
+    width: 120px;
+    border-width: 25px;
+    border-style: solid;
+    border-image: url(../images/title_box_style1.png);
+    border-image-slice: 100 100 100 100 fill;
+}
+
+#title_style2 {
+    height: 150px;
+    width: 120px;
+    position: relative;
+    left: 24%;
+    border-width: 25px;
+    border-style: solid;
+    border-image: url(../images/title_box_style2.png);
+    border-image-slice: 100 100 100 100 fill;
+}
+
+#title_style3 {
+    height: 170px;
+    width: 150px;
+    position: relative;
+    margin-left: 25px;
+    border-width: 25px;
+    border-style: solid;
+    border-image: url(../images/title_box_style3.png);
+    border-image-slice: 100 100 100 100 fill;
+}
+
+.box3 {
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
