@@ -54,4 +54,9 @@
         width: auto;
         height: 30px;
     }
+    nav {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+    }
 }
