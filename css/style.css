@@ -1,15 +1,44 @@
-body {}
-
-
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .navbar-expand-lg {
+    .start_nav {
         background: transparent;
         background-color: transparent !important;
         position: fixed;
         z-index: 1000;
         width: 100%;
+        box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .start_nav .navbar-nav {
+        display: none;
+    }
+    .start_nav:hover {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        background-color: #ffffff !important;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .start_nav:hover .navbar-nav {
+        display: flex;
+    }
+    .scroll-on {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        padding: 0 60px;
+        background-color: #ffffff;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .scroll-on .nav_icon {
+        width: auto;
+        height: 50px;
     }
     .nav_icon {
         width: auto;
