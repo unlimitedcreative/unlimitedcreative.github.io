@@ -55,7 +55,7 @@
         height: 30px;
     }
     nav {
-        position: fixed;
+        position: fixed !important;
         z-index: 1000;
         width: 100%;
     }
