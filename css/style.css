@@ -54,4 +54,7 @@
         width: auto;
         height: 30px;
     }
+    .start_nav {
+        position: fixed;
+    }
 }
