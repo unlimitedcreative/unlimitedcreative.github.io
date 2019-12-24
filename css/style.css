@@ -49,7 +49,7 @@
 
 /* Small devices (landscape phones, less than 768px) */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .nav_icon {
         width: auto;
         height: 30px;
