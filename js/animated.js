@@ -15,4 +15,19 @@
             });
         }
     });
+
+    $(function() {
+        var header = $(".start_nav");
+        var mediaQuery = window.matchMedia("(max-width: 992px)");
+        if (mediaQuery.matches) {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll > 10) {
+                    header.removeClass('start_nav').addClass("scroll-on-mobile");
+                } else {
+                    header.removeClass('scroll-on-mobile').addClass("start_nav");
+                }
+            });
+        }
+    });
 })(jQuery);
