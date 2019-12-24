@@ -54,12 +54,7 @@
         width: auto;
         height: 30px;
     }
-    nav {
-        position: fixed !important;
-        z-index: 1000;
-        width: 100%;
-    }
-    .scroll-on {
+    .scroll-on-mobile {
         position: fixed;
         z-index: 1000;
         width: 100%;
