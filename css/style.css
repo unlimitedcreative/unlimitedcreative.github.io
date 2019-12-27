@@ -59,6 +59,14 @@
         border-image: url(../src/images/title_box_style1.png);
         border-image-slice: 100 100 100 100 fill;
     }
+    #title_style2 {
+        height: 140px;
+        width: 120px;
+        border-width: 25px;
+        border-style: solid;
+        border-image: url(../src/images/title_box_style1.png);
+        border-image-slice: 100 100 100 100 fill;
+    }
     .s1 {
         margin-top: 18%;
     }
@@ -117,6 +125,18 @@
         border-style: solid;
         border-image: url(../src/images/mobile\ ver\ .png);
         border-image-slice: 80 80 80 80 fill;
+    }
+    #title_style2 {
+        height: auto;
+        width: 100%;
+        transform: rotate(180deg);
+        border-width: 25px;
+        border-style: solid;
+        border-image: url(../src/images/mobile\ ver\ .png);
+        border-image-slice: 80 80 80 80 fill;
+    }
+    #title_style2 .title_style2_text {
+        transform: rotate(180deg);
     }
     .title {
         left: 45%;
